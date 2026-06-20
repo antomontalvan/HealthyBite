@@ -6,4 +6,4 @@ Aplicación móvil desarrollada en Android Studio como proyecto académico de De
 
 Ingrese en el siguiente enlace para ver el funcionamiento de la aplicación:
 
-https://drive.google.com/file/d/1zbewHtmfn3dG1w4de91iHEzK7TclfZcK/view?usp=drivesdk
+https://drive.google.com/file/d/1d9-5PW2OXV66SgYiWduKryr6GgHVGTSl/view?usp=drive_link
