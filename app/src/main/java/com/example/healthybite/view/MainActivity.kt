@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
     private fun loadTotalCalories(){
         val totalCalories = preferencesManager.getTotalCalories()
 
-        binding.tvTotalCalories.text = String.format("Calorias diarias totales: .2f kcal", totalCalories)
+        binding.tvTotalCalories.text = String.format("Calorias diarias totales: %.2f kcal", totalCalories)
     }
 
     private fun setupSpinner(){

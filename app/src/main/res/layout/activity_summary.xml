@@ -43,5 +43,14 @@
         android:gravity="center"
         android:backgroundTint="#6A1B5D"/>
 
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/btn_volver"
+        android:gravity="center"
+        android:backgroundTint="#6A1B5D"/>
+
 </LinearLayout>
 

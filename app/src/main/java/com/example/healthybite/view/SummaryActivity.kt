@@ -60,5 +60,9 @@ class SummaryActivity : AppCompatActivity() {
 
             finish()
         }
+
+        binding.btnBack.setOnClickListener {
+            finish()
+        }
     }
 }
