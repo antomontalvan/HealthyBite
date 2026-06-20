@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_hb"
+        android:contentDescription="@string/healthybite_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido_a"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:autofillHints="name"
+        android:hint="@string/ingrese_su_nombre"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/comenzar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#6A1B5D"/>
+
+</LinearLayout>

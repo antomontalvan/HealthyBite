@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HealthyBite</string>
+    <!-- activity_welcome.xml -->
+    <string name="healthybite_logo">HealthyBite Logo</string>
+    <string name="bienvenido_a">Bienvenido/a!</string>
+    <string name="ingrese_su_nombre">Ingrese su nombre</string>
+    <string name="comenzar">Comenzar</string>
+    <!-- activity_main.xml -->
+    <string name="hola_user">Hola</string>
+    <string name="calorias_diarias_totales">Calorias diarias totales: 0 kcal</string>
+    <string name="nombre_comida">Nombre de la comida</string>
+    <string name="cantidad_calorias">Cantidad de Calorias</string>
+    <string name="comida_procesada">Comida Procesada</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="btn_ir_a_mi_diario">Ir a Mi Diario</string>
+    <!-- activity_summary.xml -->
+    <string name="food">Food</string>
+    <string name="category">Category</string>
+    <string name="calorias">0 kcal</string>
+    <string name="btn_confirmar">Confirmar</string>
+    <!-- activity_diary.xml -->
+    <string name="mi_diario">Mi Diario</string>
+    <string name="btn_volver">Volver</string>
+    <string name="tus_comidas_registradas">Tus comidas registradas</string>
+    <!-- item_food.xml -->
+    <string name="food_name">Food Name</string>
+    <string name="category_item">Snack</string>
+    <string name="calories_item">120 kcal</string>
+
+
+</resources>

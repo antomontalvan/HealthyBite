@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hola_user"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tvTotalCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/calorias_diarias_totales"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etFoodName"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:autofillHints="food_name"
+            android:hint="@string/nombre_comida"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textColorHint="#666666"/>
+
+        <EditText
+            android:id="@+id/etCalories"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:autofillHints="calories"
+            android:hint="@string/cantidad_calorias"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textColorHint="#666666"/>
+
+        <Spinner
+            android:id="@+id/spCategory"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/cbProcessed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comida_procesada"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/btn_calcular"
+            android:backgroundTint="#6A1B5D"/>
+
+        <Button
+            android:id="@+id/btnViewDiary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn_ir_a_mi_diario"
+            android:backgroundTint="#6A1B5D"/>
+
+    </LinearLayout>
+
+</ScrollView>
