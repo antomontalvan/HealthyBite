@@ -2,6 +2,8 @@ package com.example.healthybite.view
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.example.healthybite.databinding.ActivitySplashBinding
 import com.example.healthybite.repository.PreferencesManager
@@ -20,7 +22,9 @@ class SplashActivity : AppCompatActivity() {
 
         preferencesManager = PreferencesManager(this)
 
-        checkUser()
+        Handler(Looper.getMainLooper()).postDelayed({
+            checkUser()
+        }, 2000)
     }
 
     private fun checkUser() {
